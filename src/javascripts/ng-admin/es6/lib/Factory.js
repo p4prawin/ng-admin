@@ -9,6 +9,7 @@ import DateField from "./Field/DateField";
 import DateTimeField from "./Field/DateTimeField";
 import EmailField from "./Field/EmailField";
 import FileField from "./Field/FileField";
+import FloatField from "./Field/FloatField";
 import JsonField from "./Field/JsonField";
 import NumberField from "./Field/NumberField";
 import PasswordField from "./Field/PasswordField";
@@ -67,6 +68,7 @@ class Factory {
         this.registerFieldType('date', DateField);
         this.registerFieldType('datetime', DateTimeField);
         this.registerFieldType('email', EmailField);
+        this.registerFieldType('float', FloatField);
         this.registerFieldType('string', Field);
         this.registerFieldType('file', FileField);
         this.registerFieldType('json', JsonField);

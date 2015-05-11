@@ -11,6 +11,7 @@ define(function (require) {
         fvp.registerFieldView('datetime', require('ng-admin/Crud/fieldView/DateFieldView'));
         fvp.registerFieldView('email', require('ng-admin/Crud/fieldView/EmailFieldView'));
         fvp.registerFieldView('file', require('ng-admin/Crud/fieldView/FileFieldView'));
+        fvp.registerFieldView('float', require('ng-admin/Crud/fieldView/FloatFieldView'));
         fvp.registerFieldView('json', require('ng-admin/Crud/fieldView/JsonFieldView'));
         fvp.registerFieldView('number', require('ng-admin/Crud/fieldView/NumberFieldView'));
         fvp.registerFieldView('password', require('ng-admin/Crud/fieldView/PasswordFieldView'));

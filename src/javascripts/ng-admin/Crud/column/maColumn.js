@@ -25,7 +25,7 @@ define(function (require) {
                 entry: '&',
                 entity: '&'
             },
-            link: function(scope, element, attr) {
+            link: function(scope, element) {
                 scope.field = scope.field();
                 scope.entry = scope.entry();
                 var type = scope.field.type();
