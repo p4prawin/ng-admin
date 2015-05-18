@@ -41,7 +41,6 @@ function dataStoreProvider() {
 }
 
 function routing($stateProvider) {
-    'use strict';
 
     $stateProvider
         .state('list', {
